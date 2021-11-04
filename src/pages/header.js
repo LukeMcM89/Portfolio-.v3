@@ -5,10 +5,10 @@ import Layout from '../components/Layout'
 
 const Header = () => (
     <>
-    <nav><nav class="navbar is-black" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="index.html">
-                    <img src="">
+                    <img src="" />
                 </a>
             </div>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
@@ -35,6 +35,8 @@ const Header = () => (
             </div>
             <div class="navbar-end">
             </div>
-        </nav></nav>
+        </nav>
     </>
 )
+
+export default Header
