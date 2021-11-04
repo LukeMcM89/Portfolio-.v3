@@ -3,17 +3,17 @@ import Layout from '../components/Layout'
 
 const About = () => (
     <Layout>
-    <section class="section has-background-grey-light" id="about">
-        <div class="section-heading">
-            <h3 class="title is-2">About Me</h3>
+    <section className="section has-background-grey-light" id="about">
+        <div className="section-heading">
+            <h3 className="title is-2">About Me</h3>
 
-            <figure class="image is-16by9">
-                <img class="is-rounded" src="./assets/Luke.jpg" 
+            <figure className="image is-16by9">
+                <img className="is-rounded" src="./assets/Luke.jpg" 
                     alt="A simple photo of myself self sitting outside with trees in the background"/>
             </figure>
 
-            <h4 class="title is-5">Hi, I'm Luke McMurtrie!</h4>
-            <div class="container is-size-5">
+            <h4 className="title is-5">Hi, I'm Luke McMurtrie!</h4>
+            <div className="container is-size-5">
                 <p>Thank you for taking the time to consider my portfolio! This is the second iteration of my
                     professional web-developer portfolio.
 
