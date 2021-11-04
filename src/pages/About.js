@@ -1,6 +1,8 @@
 import * as React from 'react'
+import Layout from '../components/Layout'
 
 const About = () => (
+    <Layout>
     <section class="section has-background-grey-light" id="about">
         <div class="section-heading">
             <h3 class="title is-2">About Me</h3>
@@ -33,6 +35,7 @@ const About = () => (
             </div>
         </div>
     </section>
+    </Layout>
 )
 
 export default About
