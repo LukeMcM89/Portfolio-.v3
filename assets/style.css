@@ -1,0 +1,40 @@
+@media screen and (max-width: 1024px) {
+  .navbar-menu {
+  align-items: stretch;
+  background-color: $body-background-color;
+  box-shadow: $navbar-box-shadow;
+  font-size: 0.875rem;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 0;
+  
+  
+  .navbar-end {
+  justify-content: flex-end;
+  margin-left: auto;
+  align-items: stretch;
+  display: flex;
+  
+  .navbar-item, .navbar-link {
+  align-items: center;
+  display: flex;
+  }
+  
+  .navbar-dropdown {
+  background-color: #fff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top: 2px solid #dbdbdb;
+  box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
+  display: none;
+  font-size: 0.875rem;
+  left: 0;
+  min-width: 100%;
+  position: absolute;
+  top: 100%;
+  z-index: 20;
+        }
+      }
+    }
+  }

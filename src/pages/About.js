@@ -8,7 +8,7 @@ const About = () => (
             <h3 className="title is-2">About Me</h3>
 
             <figure className="image is-16by9">
-                <img className="is-rounded" src="./assets/Luke.jpg" 
+                <img className="is-rounded" src="../../assets/Luke.jpg" 
                     alt="A simple photo of myself self sitting outside with trees in the background"/>
             </figure>
 
