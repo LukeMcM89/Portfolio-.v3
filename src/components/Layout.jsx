@@ -1,5 +1,5 @@
 import * as React from 'react'
-import styles from 
+import styles from '../styles/Layout'
 
 const Layout = props => {
     return (
