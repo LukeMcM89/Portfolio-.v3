@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Header from './pages/Header';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import Footer from './pages/Footer';
 import './App.css';
 
 function App() {
