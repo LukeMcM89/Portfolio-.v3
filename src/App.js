@@ -10,6 +10,7 @@ function App() {
      <Header/>
      <About/>
      <Portfolio/>
+     <Footer/>
     </div>
   );
 }
