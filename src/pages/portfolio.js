@@ -1,4 +1,11 @@
 import * as React from 'react'
+import Password from '../assets/password_gen.png'
+import Horoscope from '../assets/Project_Horoscope.png'
+import Planner from '../assets/day_planner.png'
+import MGMT from '../assets/Employee_MGMT.png'
+import Covid from '../assets/Proj_2.png'
+import Note from '../assets/Note_Taker.png'
+
 
 const Portfolio = () => (
     <section className="section is-hidden-mobile">
@@ -8,7 +15,7 @@ const Portfolio = () => (
                 <div className="column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/password_gen.png"
+                            <img src={Password}
                                 alt="A screenshot of password generator for a web-development assignment" />
                         </div>
                         <div className="card-content">
@@ -34,7 +41,7 @@ const Portfolio = () => (
                 <div className="div.column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/Project_Horoscope.png"
+                            <img src={Horoscope}
                                 alt="A screenshot of a web-development project with a lunar API"
                                 alt="A screenshot of a password generator web-application" />
                         </div>
@@ -64,7 +71,7 @@ const Portfolio = () => (
                 <div className="column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/day_planner.png" alt="A screenshot of a day-planner web-application" />
+                            <img src={Planner} alt="A screenshot of a day-planner web-application" />
                         </div>
                         <div className="card-content">
                             <p className="title is-size-5">Day Planner</p>
@@ -92,7 +99,7 @@ const Portfolio = () => (
                 <div className="column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/Employee_MGMT.png"
+                            <img src={MGMT}
                                 alt="A screenshot of password generator for a web-development assignment" />
                         </div>
                         <div className="card-content">
@@ -121,7 +128,7 @@ const Portfolio = () => (
                 <div className="div.column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/Proj_2.png" alt="A screenshot of a Covid-19 PPE charity store login page"
+                            <img src={Covid} alt="A screenshot of a Covid-19 PPE charity store login page"
                                 alt="A screenshot of a password generator web-application" />
                         </div>
                         <div className="card-content">
@@ -151,7 +158,7 @@ const Portfolio = () => (
                 <div className="column is-4-tablet is-3-desktop">
                     <div className="card">
                         <div className="card-image has-text-centered px-6">
-                            <img src="../../assets/Note_Taker.png" alt="A screenshot of a day-planner web-application" />
+                            <img src={Note} alt="A screenshot of a day-planner web-application" />
                         </div>
                         <div className="card-content">
                             <p className="title is-size-5">Note Taker</p>
